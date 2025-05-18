@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programa Educatiu d'Acampades Escolars</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e0f7fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #00796b;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+    }
+    .banner {
+      background: #b2dfdb;
+      padding: 1rem;
+      border-left: 4px solid #00796b;
+      margin-bottom: 2rem;
+    }
+    form {
+      background: #ffffff;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      max-width: 500px;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #00796b;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ajuntament de Platja d'Aro - Educació Ambiental</h1>
+  </header>
+  <main>
+    <div class="banner">
+      <h2>Permís especial d'acampada per a grups escolars</h2>
+      <p>L'Ajuntament de Platja d'Aro ofereix un programa educatiu que permet acampades regulades a la Platja Gran per a grups escolars amb finalitats pedagògiques i ambientals.</p>
+    </div>
+    <section>
+      <h3>Condicions del programa</h3>
+      <ul>
+        <li>Activitat disponible només per escoles participants del programa.</li>
+        <li>Autorització prèvia necessària mitjançant formulari oficial.</li>
+        <li>Activitat supervisada per monitors titulats.</li>
+        <li>Objectiu: fomentar el respecte pel medi natural i la convivència responsable.</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Formulari de sol·licitud</h3>
+      <form>
+        <label for="nom">Nom del centre educatiu:</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="contacte">Nom i cognoms del responsable:</label>
+        <input type="text" id="contacte" name="contacte" required>
+
+        <label for="email">Correu electrònic:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="dates">Dates sol·licitades:</label>
+        <input type="text" id="dates" name="dates" placeholder="Ex: del 10 al 12 de juny">
+
+        <label for="missatge">Comentaris addicionals:</label>
+        <textarea id="missatge" name="missatge"></textarea>
+
+        <button type="submit">Enviar sol·licitud</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    © 2025 Programa Educatiu d'Acampades Escolars - Ajuntament de Platja d'Aro
+  </footer>
+</body>
+</html>
